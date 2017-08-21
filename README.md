@@ -8,12 +8,12 @@ This code gives you access to control the NKT SuperK laser and Varia filter dire
 ```
 laser = NKTControl
 laser.setLowerBandwidth(540)
-laser.setUpperBandwidth(540)
+laser.setUpperBandwidth(560)
 laser.setPowerLevel(10)
 laser.emissionOn()
 ```
 
-Please note that the address for the laser and Varia are hardcoded towards the end of the file. Furthermore, please consider contributing to this software if you are modifying it (e.g. to use with other hardware).
+Please note that the addresses for the laser and Varia are hardcoded towards the end of the file. Furthermore, please consider contributing to this software if you are modifying it (e.g. to use with other hardware).
 
 
 We take no responsibility of the software and would like to remind everyone to be careful when operating lasers.
